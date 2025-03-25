@@ -6,15 +6,15 @@
 }
 
 /* CSS Variable Declaration */
-:root{
-    --main-text-color: #333;
-    --primary-color: blue;
-    --secondary-color: #ffcc00;
-    --footer-color: #222;
-    --main-background-color: #f4f4f9;
-    --about-color: #f9f9f9;
-    --light-color: white;
-    --project-card-color: #e0e0e0;
+:root {
+    --main-text-color: #444;
+    --primary-color: #16a085; /* Sea Green */
+    --secondary-color: #f39c12; /* Amber */
+    --footer-color: #2d3e50;
+    --main-background-color: #ecf0f1;
+    --about-color: #ffffff;
+    --light-color: #ffffff;
+    --project-card-color: #d5dbdb;
     --project-color: #f0f0f0;
 }
 
@@ -28,6 +28,10 @@ body {
     background: var(--main-background-color);
     color: var(--main-text-color);
     scroll-behavior: smooth;
+}
+
+img{
+    object-fit: cover;
 }
 
 h1, h2, h3 {
